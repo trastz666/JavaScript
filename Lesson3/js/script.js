@@ -70,7 +70,7 @@ alert("Ваш дневной бюджет из расчета 30 дней:" + bu
 function discontSystem(price) {
 	if (mainList.discount === true) {
 		alert("Цена со скидкой:" + price*80/100); 
-	}else if (mainList.discount === false) {
+	}else (mainList.discount === false) {
 		alert("Цена без скидки:" + price);
 	}
 }
